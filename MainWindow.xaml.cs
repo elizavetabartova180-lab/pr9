@@ -16,7 +16,6 @@ namespace pr9_Bartova
             warrior2 = new LightArmorWarrior("Воин 2", 100);
             warrior3 = new HeavyArmorWarrior("Воин 3", 100);
         }
-
         private void Warrior1Attack_Click(object sender, RoutedEventArgs e)
         {
             warrior1.TakeDamage(15);
