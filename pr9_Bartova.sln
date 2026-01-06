@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr9_Bartova", "pr9_Bartova.csproj", "{DC060E67-0B1A-4A8E-AF9F-63834F5CD97D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC060E67-0B1A-4A8E-AF9F-63834F5CD97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC060E67-0B1A-4A8E-AF9F-63834F5CD97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC060E67-0B1A-4A8E-AF9F-63834F5CD97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC060E67-0B1A-4A8E-AF9F-63834F5CD97D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7AD4742-5F0A-4FDF-8C75-35C4C0AF8EB5}
+	EndGlobalSection
+EndGlobal
