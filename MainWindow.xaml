@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pr9_Bartova"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="воюем уахахаха" Height="600" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="1" Name="WarriorsPanel" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" Margin="20"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                    HorizontalAlignment="Center" Margin="10">
+            <Button Name="CreateBtn" Content="Создать" 
+                    Width="100" Height="30" Margin="5" 
+                    Click="CreateBtn_Click"/>
+            <Button Name="AttackBtn" Content="Атаковать всех" 
+                    Width="120" Height="30" Margin="5" 
+                    Click="AttackBtn_Click"/>
+        </StackPanel>
     </Grid>
 </Window>
